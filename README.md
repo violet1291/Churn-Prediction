@@ -31,10 +31,12 @@ The process followed the methodological stages of the algorithm:
 The following groups were identified, with the characteristics described below.
 _Table 1. Number of Customers Who Remain Subscribed or Churn_
 <img width="849" height="100" alt="image" src="https://github.com/user-attachments/assets/0b0df236-06ce-44d7-a7b0-9b46521c1c00" />
+
 Source: Author’s own elaboration.
 
 _Table 2. Customer Groups by Average Characteristics_
 <img width="753" height="257" alt="image" src="https://github.com/user-attachments/assets/195214ea-2df6-4024-9836-0ddaddbac1c4" />
+
 Source: Author’s own elaboration.
 
 **Dimensionality Reduction and Visualization**
@@ -47,10 +49,12 @@ Finally, to understand the effect of each variable on customer churn probability
 
 _Table 3. Logistic Regression Coefficients and Odds Ratios_
 <img width="752" height="295" alt="image" src="https://github.com/user-attachments/assets/3a61f5b6-1c00-4b2a-b797-aea426511d38" />
+
 Source: Author’s own elaboration.
 
 **Figure 1. Customer Type Classification**
 <img width="789" height="604" alt="image" src="https://github.com/user-attachments/assets/b1bed89c-b304-4205-808b-8a5768be1927" />
+
 Source: Author’s own elaboration.
 
 The results show a good overall fit, indicating that variables related to satisfaction, service usage, and perceived benefit decrease the probability of churn, while those associated with technical support and its variability tend to increase it. The model achieves high accuracy (95%); however, it fails to correctly identify class 1, reflecting a significant class imbalance and a bias toward the majority class (Churn = 0). This is consistent with the dataset composition, where approximately 4.37% of customers are in the churn state. To improve probability estimation, balancing the dataset between positive and negative churn cases is recommended.
@@ -58,6 +62,7 @@ The results show a good overall fit, indicating that variables related to satisf
 **Table 4. Logistic Regression Classification Report**
 
 <img width="858" height="156" alt="image" src="https://github.com/user-attachments/assets/7e277f50-6926-47c4-92db-2f99380fcf1b" />
+
 Source: Author’s own elaboration.
 
 **Methodological Synthesis**
